@@ -5,18 +5,18 @@
 목차
 -
 - [마크다운?](#마크다운?)
-- [마크다운 사용문법(syntax)](#마크다운-사용-문법-Syntax) 
-	- [제목 Headers](#제목-Headers)
-	- [목록 List](#목록-List)
-- [참고문서](#참고문서)
+- [마크다운 사용문법(syntax)](#2.-마크다운-사용-문법-Syntax) 
+	- [제목 Headers](#2.1.-제목-Headers)
+	- [목록 List](#2.2.-목록-List)
+- [참고문서](#3.-참고문서)
 
 
-# 마크다운?
+# 1. 마크다운?
 
-# 마크다운 사용 문법 Syntax
+# 2. 마크다운 사용 문법 Syntax
 마크다운 사용법에 관한 내용입니다.<br>
 상단부의 내용은 ``` code ```로 
-## 제목 Headers
+## 2.1. 제목 Headers
 
 - 제목
 
@@ -58,9 +58,9 @@ H2
 ```
 H1 ~ H6까지 지원하며 이후로는 text취급되어 작성됩니다.<br>
 
-## 목록 List
+## 2.2. 목록 List
 
 
-# 참고문서
+# 3. 참고문서
 - [Heropy님의 'MarkDown 사용법 총정리'](https://heropy.blog/2017/09/30/markdown/)
 - [ihoneymon님의 '[공통] 마크다운 markdown 작성법'](https://gist.github.com/ihoneymon/652be052a0727ad59601)
