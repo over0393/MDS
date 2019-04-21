@@ -1,13 +1,14 @@
-µ¶ÇÏ°Ô ½ÃÀÛÇÏ´Â C
+ë…í•˜ê²Œ ì‹œìž‘í•˜ëŠ” C
 =
 
-#### ±â°è¾î
-¼Ò½ºÄÚµå(High Level ¾ð¾î)
+#### ê¸°ê³„ì–´
+
+ì†ŒìŠ¤ì½”ë“œ(High Level ì–¸ì–´)
 l
-l   - ¹ø¿ª(Compiler)
+l   - ë²ˆì—­(Compiler)
 v
-¿ÀºêÁ§Æ®ÆÄÀÏ(.obj)
+ì˜¤ë¸Œì íŠ¸íŒŒì¼(.obj)
 l
-l   - ¸µÅ©(Linker)
+l   - ë§í¬(Linker)
 v
-½ÇÇàÆÄÀÏ(.exe)
+ì‹¤í–‰íŒŒì¼(.exe)
