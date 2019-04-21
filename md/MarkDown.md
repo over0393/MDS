@@ -5,15 +5,15 @@
 목차
 ==
 - [마크다운?](#마크다운?)
-- [마크다운 사용문법(syntax)](#마크다운 사용 문법syntax) 
-	- [제목 Headers](#제목Headers)
-	- [목록 List](#목록List)
+- [마크다운 사용문법(syntax)](#마크다운-사용-문법-Syntax) 
+	- [제목 Headers](#제목-Headers)
+	- [목록 List](#목록-List)
 - [참고문서](#참고문서)
 
 
 # 마크다운?
 
-# 마크다운 사용 문법syntax
+# 마크다운 사용 문법 Syntax
 마크다운 사용법에 관한 내용입니다.<br>
 상단부의 내용은 ``` code ```로 
 ## 제목 Headers
