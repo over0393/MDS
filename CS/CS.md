@@ -1,12 +1,12 @@
-C sharp ¹ü¿ë ÄÚµå
+C sharp ë²”ìš© ì½”ë“œ
 =
 
-¸ñÂ÷
+ëª©ì°¨
 -
-- [String.SubstringÀ» ÀÌ¿ëÇÑ ¹®ÀÚ¿­ ¿ª¼ø º¯°æ](#-String.SubstringÀ»-ÀÌ¿ëÇÑ-¹®ÀÚ¿­-¿ª¼ø-º¯°æ)
+- [String.Substringì„ ì´ìš©í•œ ë¬¸ìì—´ ì—­ìˆœ ë³€ê²½](#-StringSubstringì„-ì´ìš©í•œ-ë¬¸ìì—´-ì—­ìˆœ-ë³€ê²½)
 
 
-- String.SubstringÀ» ÀÌ¿ëÇÑ ¹®ÀÚ¿­ ¿ª¼ø º¯°æ
+- String.Substringì„ ì´ìš©í•œ ë¬¸ìì—´ ì—­ìˆœ ë³€ê²½
 ```C#
 String ReverseOrderString(string DefaultText)
 {
@@ -19,4 +19,4 @@ String ReverseOrderString(string DefaultText)
 }
 ```
 
-¹®ÀÚ¿­À» ¹Ş¾Æ ¿ª¼øÀ¸·Î ÀúÀåÇÑ °ªÀ» returnÇÏ´Â ÇÔ¼ö ÀÛ¼º
+ë¬¸ìì—´ì„ ë°›ì•„ ì—­ìˆœìœ¼ë¡œ ì €ì¥í•œ ê°’ì„ returní•˜ëŠ” í•¨ìˆ˜ ì‘ì„±
