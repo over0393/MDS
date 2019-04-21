@@ -38,6 +38,7 @@ int main(void)
 `item; item; item;` = 구문<br>
 `int main(void) { item; item; item; }` = 함수<br><br>
 
+### 
 C언어에서의 프로그래밍은 절차지향적 프로그래밍으로<br>
 함수 내부의 구문에 존재하는 항을 상단부터 순차적으로 진행한다.
 
