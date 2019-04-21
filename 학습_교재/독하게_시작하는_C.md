@@ -25,7 +25,7 @@ int main(void)
 {
 }
 ```
-'#include<>' = 전처리기. 컴파일 전처리기<br><br>
+''#include<>'' = 전처리기. 컴파일 전처리기<br><br>
 
 ㅣ 'int' = 반환형식<br>
 ㅣ 'main' = 함수명<br>
