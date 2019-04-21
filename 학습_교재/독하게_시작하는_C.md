@@ -12,3 +12,28 @@ l<br>
 l   - 링크(Linker)<br>
 v<br>
 실행파일(.exe)
+
+#### 파일의 종류
+.c 파일 - 정의<br>
+.h 파일 - 선언
+
+#### 형식
+```C
+#include <stdio.h>
+
+int main(void)
+{
+}
+```
+[#include<>] = 전처리기. 컴파일 전처리기
+
+ㅣ [int] = 반환형식
+ㅣ [main] = 함수명
+ㅣ [(void)] = 매개변수
+ㅣ
+함수+선언 정의
+
+[{}] = 변위 Block Scope. Body
+[item;] = 항
+[item; item; item;] = 구문
+[int main(void) { item; item; item; }] = 
