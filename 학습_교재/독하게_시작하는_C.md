@@ -25,15 +25,15 @@ int main(void)
 {
 }
 ```
-[#include<>] = 전처리기. 컴파일 전처리기
+'#include<>' = 전처리기. 컴파일 전처리기<br><br>
 
-ㅣ [int] = 반환형식
-ㅣ [main] = 함수명
-ㅣ [(void)] = 매개변수
-ㅣ
-함수+선언 정의
+ㅣ 'int' = 반환형식<br>
+ㅣ 'main' = 함수명<br>
+ㅣ '(void)' = 매개변수<br>
+ㅣ<br>
+함수+선언 정의<br><br>
 
-[{}] = 변위 Block Scope. Body
-[item;] = 항
-[item; item; item;] = 구문
-[int main(void) { item; item; item; }] = 
+'{}' = 변위 Block Scope. Body<br>
+'item;' = 항<br>
+'item; item; item;' = 구문<br>
+'int main(void) { item; item; item; }' = 함수<br><br>
