@@ -65,31 +65,31 @@ H1 ~ H6까지 지원하며 이후로는 text취급되어 작성됩니다.<br>
 1. List 1
 1. List 2
 1. List 3
- 1. List 3-1
- 1. List 3-2
+	1. List 3-1
+	1. List 3-2
 1. List 4
 
 ```
 1. List 1
 1. List 2
 1. List 3
- 1. List 3-1
- 1. List 3-2
+	1. List 3-1
+	1. List 3-2
 1. List 4
 ```
 
 - 순서가 필요하지 않은 목록
 
 - List 1
- - List 1-1
- * List 1-2
- + List 1-3
+	- List 1-1
+	* List 1-2
+	+ List 1-3
 
 ```
 - List 1
- - List 1-1
- * List 1-2
- + List 1-3
+	- List 1-1
+	* List 1-2
+	+ List 1-3
 ```
 
 
