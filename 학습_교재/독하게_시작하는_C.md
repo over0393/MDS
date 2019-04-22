@@ -80,18 +80,9 @@ C언어에서의 프로그래밍은 절차지향적 프로그래밍으로<br>
 
 | 분류 | 자료형 |
 | :---: | --- |
-| 정수형 | `char` : 1(8bits) <br>
-	`short` : 2(16bits) <br>
-	`int` : 4(32bits) <br>
-	`long` : 4(32bits) <br>
-	`long long int` : 8(64bits) |
-| 실수형 | `float` : 4(32bits) <br>
-	`double` : 8(64bits) <br>
-	'long double' : 8 이상 <br> |
-| 유도형 | `*` : 4(32bit App), 포인터. 메모리 주소를 의미 <br>
-	`[]` : 배열, 동일 요소의 집합체 <br>
-	구조체 : 서로 다른 요소들의 집합체 <br>
-	공용체 : 동일 메모리에 다양한 해석방법을 부여하는 방법 <br> |
+| 정수형 | `char` : 1(8bits) <br> `short` : 2(16bits) <br> `int` : 4(32bits) <br> `long` : 4(32bits) <br> `long long int` : 8(64bits) |
+| 실수형 | `float` : 4(32bits) <br> `double` : 8(64bits) <br> 'long double' : 8 이상 <br> |
+| 유도형 | `*` : 4(32bit App), 포인터. 메모리 주소를 의미 <br> `[]` : 배열, 동일 요소의 집합체 <br> 구조체 : 서로 다른 요소들의 집합체 <br> 공용체 : 동일 메모리에 다양한 해석방법을 부여하는 방법 <br> |
 | - | `void` : 무치형, 길이 및 해석방법이 없는 자료형 |
 
 ####
