@@ -108,3 +108,6 @@ Alt+6으로 메모리창 활성화하여 메모리 변경 내역 확인 필수<b
 ### 이름과 주석문
 **이름 잘 짓자(naming).**<br>
 **Programming은 개발하며 다른 사람들과 협업할때 주고받는 문서Code를 작성하는 것이다.**<br><br>
+
+### 표준 입/출력 도구
+HCI (Human Computer Interface) -> CLI (Command Line Interface) -> GUI (Graphic User Interface) -> UX (User eXperience)<br>
