@@ -111,3 +111,24 @@ Alt+6으로 메모리창 활성화하여 메모리 변경 내역 확인 필수<b
 
 ### 표준 입/출력 도구
 HCI (Human Computer Interface) -> CLI (Command Line Interface) -> GUI (Graphic User Interface) -> UX (User eXperience)<br>
+이 표준 입/출력 도구를 사용하는 주체는 Kernel이다.<br>
+User가 Kernel에 접속할 수 있는 방법이 File이고 유저는 이 File에 입력할 정보를 규칙Protocol에 맞추어 작성하는 것을 함수로 만든 것(getchar(), putchar(), ...)을 사용해 Kernel에 보냄으로써 Kernel의 기능을 사용한다.<br>
+이 File은 입/출력에 대한 Buffer(Memory)를 가지고 있다. 따라서, File의 입/출력은 Buffer를 거치기 때문에 Buffered I/O라고 한다.
+표준 입/출력 '도구'는 유저가 OS에게 입/출력을 사용하기 위해 파일에 작성해 OS에 보내어 요구하는 '함수'이다.
+
+### 메모리 Buffer
+Buffer의 사전적 의미는 완충기.<br>
+Youtube를 예로 들면 동영상 정보를 받아오는 중도에 네트워크가 끊기는 것(충격)과 같은 피해를 사용자가 직접적으로 느끼지 않게(로딩)끔 만들어 주는 것이라고 할 수 있다.
+영상 정보를 받아 버퍼에 저장한. 재생할 수 있는 정보들이 존재하면 도중에 네트워크 정보가 끊어져도 사용자는 버퍼에 저장된 정보를 볼 수 있고, 버퍼에 존재하는 정보가 다 소진되기 전에 네트워크가 복구되어 다시금 버퍼에 정보들이 저장되면 사용자는 중간에 네트워크가 끊어진 것(충격)을 느낄 수 없는 상태(완화된 상태)가 되기에 버퍼는 완충기라고 볼 수 있다.
+
+### 비동기 I/O
+네트워크 프로그래밍에서 사용하는 Socket은 위에 나오는 File과 동일하다.<br>
+하지만, 일반적인 I/O와는 다르게 유저가 정보를 보내는 것은 능동적으로 보낼 수 있지만, 받는 것은 정보가 왔을 때에만 받아야 하기 때문에 이 비동기 I/O를 사용한다.<br>
+이것은 시스템 프로그래밍과 File I/O. Protocol에 대한 원론, 이론 공부를 제대로 진행하다 보면 알 수 있다.
+
+### DMA Direct Memory Access
+
+### 디버거 Debugger
+H/W <- Kernel(OS) <- User <- Process <- Thread<br>
+Debugger는 소프트웨어 사이의 메모리를 뒤질 수 있는 소프트웨어로써 privileged level software라고 불린다.<br>
+메모리 변조 해킹도 이 Debugger를 사용하는 방법 중 하나이다.
